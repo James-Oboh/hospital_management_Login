@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to the Hospital Management System</h1>
+    <p class="lead">Manage hospital operations efficiently and effectively.</p>
+    <hr class="my-4">
+    <p>Login to access your dashboard.</p>
+    <a class="btn btn-primary btn-lg" href="/user/login" role="button">User Login</a>
+    <a class="btn btn-primary btn-lg" href="/admin/login" role="button">Admin Login</a>
+    <a class="btn btn-primary btn-lg" href="/employee/login" role="button">Employee Login</a>
+</div>
+{% endblock %}
